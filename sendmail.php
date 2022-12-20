@@ -5,7 +5,7 @@ require 'PHPMailer-6.5.3/src/PHPMailer.php';
 $mail = new PHPMailer;
 $mail->CharSet = 'UTF-8';
 
-$name = $_POST['user_name'];
+$name = $_POST['user_email'];
 
 $mail->isSMTP();
 $mail->Host = 'smtp.mail.ru';
