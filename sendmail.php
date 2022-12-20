@@ -20,6 +20,6 @@ $mail->addAddress('janat.sulaimanov@mail.ru');
 $mail->isHTML(true);
 
 $mail->Subject = 'Заявка с сайта';
-$mail->Body = '' $name 'оставил заявку';
+$mail->Body = '' $email 'оставил заявку';
 $mail->AltBody = '';
 ?>
