@@ -290,8 +290,6 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   padding: 12px 0px 0px 45px;
 }
-  transition: background-color 0.5s ease 0s;
-}
 .mainblock__button-body:hover {
   background-color: #C4C4C4;
 }
@@ -412,24 +410,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 32px;
   line-height: 22px;
   text-align: center;
   letter-spacing: 1.8px;
   color: #56593D;
   margin-top: 32px;
-  padding: 64px 0px 0px 0px;
-}
-.karakol__text{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 60px;
-  text-align: center;
-  color: #56593D; 
-  z-index: 10;
-  padding: 0px 64px 0px 64px;
+  padding: 128px 0px 0px 0px;
 }
 .karakol__image img{
   position: absolute;

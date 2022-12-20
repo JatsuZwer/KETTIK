@@ -1,6 +1,6 @@
 <?php
 require 'PHPMailer-6.5.3/src/Exception.php';
-require 'PHPMailer-6.5.3/src/PHPMailer.ph';
+require 'PHPMailer-6.5.3/src/PHPMailer.php';
 
 $mail = new PHPMailer;
 $mail->CharSet = 'UTF-8';
