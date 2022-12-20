@@ -1,11 +1,9 @@
 <?php
-require 'PHPMailer-6.5.3/src/Exception.php';
-require 'PHPMailer-6.5.3/src/PHPMailer.php';
-
+require_once('phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
 $mail->CharSet = 'UTF-8';
 
-$name = $_POST['user_email'];
+$email = $_POST['user_email'];
 
 $mail->isSMTP();
 $mail->Host = 'smtp.mail.ru';
