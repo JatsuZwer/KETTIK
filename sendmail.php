@@ -14,12 +14,13 @@ $mail->SMTPSecure = 'ssl'
 $mail->Port = 465;
 
 $mail->setFrom('janat.sulaimanov@mail.ru');
-$mail->addAddress('janat.sulaimanov@mail.ru');
+$mail->addAddress('bakulia_sj@mail.ru');
 $mail->isHTML(true);
 
 $mail->Subject = 'Заявка с сайта';
-$mail->Body = '' $email 'оставил заявку';
+$mail->Body = '' .$email. 'оставил заявку';
 $mail->AltBody = '';
+
 if(!$mail->send()) {
     echo 'Error';
 } else {
