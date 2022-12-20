@@ -510,7 +510,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom:0px;
   }
   .about__info:after {
-    margin-bottom: 150px;
+    margin-bottom: 90px;
   }
  }
 .sell__body{
@@ -551,6 +551,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 1px;
   opacity: 0.5;
   background: #717353;
+  margin: 0px 0px 250px 0px;
 }
 .sell__text{
   font-family: 'Jost';
@@ -582,7 +583,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 16px;
   }
   .sell__info:after {
-    margin-bottom: 180px;
+    margin-bottom: 500px;
   }
  }
 .form__body{
