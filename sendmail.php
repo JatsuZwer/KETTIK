@@ -1,9 +1,12 @@
 <?php
 
-require 'phpmailer/PHPMailerAutoload.php';
+use PHPMaileR\PHPMailer\PHPMailer;
+use PHPMaileR\PHPMailer\Exception;
 
+require 'PHPMailer-6.7.1/src/Exception.php';
+require 'PHPMailer-6.7.1/src/PHPMailer.php';
 
-$mail = new PHPMailer;
+$mail = new PHPMailer(true);
 $mail->CharSet = 'utf-8';
 
 $email = $_POST['user_email'];
